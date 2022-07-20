@@ -48,7 +48,7 @@ main {
 .watch a {
   text-decoration: none;
   color: black;
-  background-color: white;
+  background-color: rgb(101, 183, 246);
   border-radius: 5px;
   cursor: pointer;
   padding: 16px 25px;
@@ -56,10 +56,12 @@ main {
   font-size: 20px;
 }
 .watch a:hover {
+  width: 15%;
   padding: 18px 26px;
-  font-size: 22px;
-  background-color: #dd0000;
+  font-size: 30px;
+  background-color: rgb(0, 144, 254);
   color: white;
+  transition: font-size 10s;
 }
 .section-image img {
   width: 581px;
@@ -97,7 +99,7 @@ main {
   color: black;
 }
 #match:hover {
-  background-color: #dd0000;
+  background-color: rgb(0, 144, 254);
   color: white;
 }
 #group {
@@ -107,7 +109,7 @@ main {
   margin: 10px;
 }
 #group:hover {
-  background-color: #dd0000;
+  background-color: rgb(0, 144, 254);
   color: white;
 }
 #blog {
@@ -118,7 +120,7 @@ main {
   color: black;
 }
 #blog:hover {
-  background-color: #dd0000;
+  background-color: rgb(0, 144, 254);
   color: white;
 }
 .blogs {
@@ -195,20 +197,6 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 20px;
-}
-.view a {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: rgb(252, 249, 249);
-  background-color: #dd0000;
-  border-radius: 5px;
-  cursor: pointer;
-  padding: 16px 25px;
-  margin-top: 30px;
-  font-size: 20px;
-  width: 131px;
 }
 .view {
   display: none;
@@ -295,7 +283,7 @@ footer {
   .watch a {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-color: rgb(101, 183, 246);
     border-radius: 5px;
     cursor: pointer;
     padding: 10px 15px;
@@ -305,8 +293,9 @@ footer {
   .watch a:hover {
     padding: 12px 17px;
     font-size: 15px;
-    background-color: #dd0000;
+    background-color: rgb(0, 144, 254);
     color: white;
+    transition: font-size 10s;
   }
   .section-image img {
     width: 300px;
@@ -337,9 +326,10 @@ footer {
     background-color: white;
     padding: 10px;
     margin: 10px;
+    border: 1px dotted lightgray;
   }
   #match-tab:hover {
-    background-color: #dd0000;
+    background-color: rgb(0, 144, 254);
     color: white;
   }
   #group-tab {
@@ -347,9 +337,10 @@ footer {
     background-color: white;
     padding: 20px;
     margin: 10px;
+    border: 1px dotted lightgray;
   }
   #group-tab:hover {
-    background-color: #dd0000;
+    background-color: rgb(0, 144, 254);
     color: white;
   }
   #blog-tab {
@@ -358,9 +349,10 @@ footer {
     padding: 20px;
     margin: 10px;
     color: black;
+    border: 1px dotted lightgray;
   }
   #blog-tab:hover {
-    background-color: #dd0000;
+    background-color: rgb(0, 144, 254);
     color: white;
   }
 
@@ -416,14 +408,14 @@ footer {
   .flag {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
+    grid-gap: 15px;
   }
   .match {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     border: 1px dotted lightgray;
-    padding: 20px 20px;
-    margin: 20px 20px;
+    padding: 5px 5px;
+    margin: 10px 10px;
   }
   .match-title {
     display: grid;
@@ -431,7 +423,7 @@ footer {
   }
   .matches {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-right: 200px;
   }
   .match-section {
@@ -445,7 +437,7 @@ footer {
     align-items: center;
     text-decoration: none;
     color: rgb(252, 249, 249);
-    background-color: #dd0000;
+    background-color: rgb(0, 144, 254);
     border-radius: 5px;
     cursor: pointer;
     padding: 10px 15px;
@@ -473,21 +465,21 @@ grid-template-columns: repeat(1,1fr);
     }
     .head-section {
       background-color: black;
-      border-radius: 30px;
+      border-radius: 10px;
      
       color: white;
       padding-top: 20px;
     }
   }
   .section-heading {
-    padding-left: 50px;
+    padding-left: 10px;
   }
   .section-title {
-    font-weight: 700;
-    font-size: 50px;
+    font-weight: 500;
+    font-size: 30px;
   }
   .section-heading p {
-    font-weight: 400;
+    font-weight: 200;
     font-size: 16px;
   }
   .watch {
@@ -496,22 +488,22 @@ grid-template-columns: repeat(1,1fr);
   .watch a {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-color: rgb(101, 183, 246);
     border-radius: 5px;
     cursor: pointer;
-    padding: 10px 15px;
-
+    padding: 5px 10px;
     font-size: 12px;
   }
   .watch a:hover {
-    padding: 12px 17px;
+    padding: 10px 15px;
     font-size: 15px;
-    background-color: #dd0000;
+    background-color: rgb(0, 144, 254);
     color: white;
+    transition: font-size 10s;
   }
   .section-image img {
-    width: 300px;
-    height: 500px;
+    width: 150px;
+    height: 250px;
   }
   .aside-section {
     display: none;
@@ -538,9 +530,10 @@ grid-template-columns: repeat(1,1fr);
     background-color: white;
     padding: 10px;
     margin: 10px;
+    border: 1px dotted lightgray;
   }
   #match-tab:hover {
-    background-color: #dd0000;
+    background-color: rgb(0, 144, 254);
     color: white;
   }
   #group-tab {
@@ -548,9 +541,10 @@ grid-template-columns: repeat(1,1fr);
     background-color: white;
     padding: 20px;
     margin: 10px;
+    border: 1px dotted lightgray;
   }
   #group-tab:hover {
-    background-color: #dd0000;
+    background-color:rgb(0, 144, 254);
     color: white;
   }
   #blog-tab {
@@ -559,9 +553,10 @@ grid-template-columns: repeat(1,1fr);
     padding: 20px;
     margin: 10px;
     color: black;
+    border: 1px dotted lightgray;
   }
   #blog-tab:hover {
-    background-color: #dd0000;
+    background-color: rgb(0, 144, 254);
     color: white;
   }
 
@@ -580,7 +575,7 @@ grid-template-columns: repeat(1,1fr);
     padding: 20px;
   }
   .blog-banner img {
-    width: 300px;
+    width: 220px;
     height: 200px;
     border-radius: 10px 10px 0px 0px;
   }
@@ -617,14 +612,14 @@ grid-template-columns: repeat(1,1fr);
   .flag {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
+    grid-gap: 10px;
   }
   .match {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     border: 1px dotted lightgray;
-    padding: 20px 20px;
-    margin: 20px 20px;
+    padding: 5px 5px;
+    margin: 10px 10px;
   }
   .match-title {
     display: grid;
@@ -632,7 +627,7 @@ grid-template-columns: repeat(1,1fr);
   }
   .matches {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin-right: 200px;
   }
   .match-section {
@@ -644,33 +639,34 @@ grid-template-columns: repeat(1,1fr);
   .view a{
     display: none;
   }
-}
-footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  width: 100%;
-  height: 400px;
-  padding-top: 10px;
-  color: #b9b9b9;
-  margin-top: 20px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.terms {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  margin-top: 0px;
-}
-.terms a {
-  text-decoration: none;
-  color: #b9b9b9;
-}
-.social-link {
-  display: grid;
-  grid-template-columns: repeat(4, 100px);
-  justify-content: center;
-  font-size: 25px;
-  padding-bottom: 0;
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    padding-top: 10px;
+    color: #b9b9b9;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .terms {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 0px;
+  }
+  .terms a {
+    text-decoration: none;
+    color: #b9b9b9;
+  }
+  .social-link {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    justify-content: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  
 }
